@@ -39,6 +39,7 @@ export default class App extends Component<{}> {
         break;
     }
   }
+  
   changeGameState = (state)=>{
     this.setState({
       gameState: state
